@@ -4,6 +4,20 @@ Standalone Expo repro for the `effect/unstable/httpapi` import used in `packages
 
 This folder is intentionally not part of the monorepo workspace and does not extend any shared config.
 
+## Nix shell
+
+```bash
+direnv allow
+```
+
+or:
+
+```bash
+nix develop
+```
+
+The dev shell sets `JAVA_HOME` via `jdk`, which is useful for Expo/Android tooling.
+
 ## Run
 
 ```bash
