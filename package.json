@@ -1,0 +1,23 @@
+{
+  "name": "event-app-httpapi-repro",
+  "private": true,
+  "main": "index.ts",
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "dev": "expo start -c",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "check-types": "tsc -b",
+    "bundle:android": "expo export --platform android"
+  },
+  "dependencies": {
+    "effect": "4.0.0-beta.38",
+    "expo": "~55.0.8",
+    "react": "19.2.0",
+    "react-native": "0.83.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "typescript": "6.0.2"
+  }
+}
